@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="test1.xslt"?>
+<EMS xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="test1.xsd">
+
+
+<Company>
+	<Employee id="1" >
+		<ID>1</ID>
+		<EmpName>Alan</EmpName>
+		<EmpAge>35</EmpAge>
+		<EmpSalary>100000</EmpSalary>
+		<EmpEmail>alan@gmail.com</EmpEmail>
+		<EmpPhoneNo>8884548040</EmpPhoneNo>
+		<EmpDesignation>Developer</EmpDesignation>
+		<EmpPromotion> Developer</EmpPromotion>
+	</Employee>
+</Company>
+
+<Company>
+	<Employee id="2">
+		<ID>2</ID>
+		<EmpName>Kiran</EmpName>
+		<EmpAge>42</EmpAge>
+		<EmpSalary>150000</EmpSalary>
+		<EmpEmail>kiran@gmail.com</EmpEmail>
+		<EmpPhoneNo>9747363336</EmpPhoneNo>
+		<EmpDesignation>Developer</EmpDesignation>
+		<EmpPromotion>Team Leader</EmpPromotion>
+	</Employee>
+</Company>
+
+<Company>
+	<Employee id="3">
+		<ID>3</ID>
+		<EmpName>Joyce</EmpName>
+		<EmpAge>51</EmpAge>
+		<EmpSalary>100000</EmpSalary>
+		<EmpEmail>joyce@gmail.com</EmpEmail>
+		<EmpPhoneNo>9959584793</EmpPhoneNo>
+		<EmpDesignation>Developer</EmpDesignation>
+		<EmpPromotion>Associate Project Manager</EmpPromotion>
+	</Employee>
+</Company>
+
+</EMS>
