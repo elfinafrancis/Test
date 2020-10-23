@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" 
+targetNamespace="http://www.example.org/test1" 
+xmlns:tns="http://www.example.org/test1" 
+elementFormDefault="qualified">
+
+<complexType name="Employee">
+<sequence>
+<element name="ID" type="integer"></element>
+<element name="EmpName" type="string"></element>
+<element name="EmpAge" type="integer"></element>
+<element name="EmpSalary" type="integer"></element>
+<element name="EmpEmail" type="string"></element>
+<element name="EmpPhoneNo" type="integer"></element>
+<element name="EmpDesignation" type="string"></element>
+<element name="EmpPromotion" type="string"></element>
+</sequence>
+</complexType>
+
+<simpleType name="EmpSalary">
+<restriction base="integer">
+<minInclusive value="20000"></minInclusive>
+<maxInclusive value="200000"></maxInclusive>
+</restriction>
+</simpleType>
+
+</schema>
+
